@@ -5,6 +5,7 @@ import mutations from './mutations';
 import actions from './actions';
 
 import config from './modules/config';
+import dictionary from './modules/dictionary';
 
 Vue.use(Vuex);
 
@@ -19,6 +20,7 @@ export default new Vuex.Store({
   actions,
   modules: {
     config,
+    dictionary,
   },
   strict: debug,
 });
